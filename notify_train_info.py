@@ -2,7 +2,7 @@
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 from bs4 import BeautifulSoup
-# import requests
+import requests
 import sys
 
 #### 初期変数設定 ####
