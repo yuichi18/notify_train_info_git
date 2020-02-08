@@ -3,10 +3,8 @@ import sys
 
 ### LINE通知
 def line_bot(msg):
-    line_api = 'https://notify-api.line.me/api/notify'
-    line_token = 'line-notify-token入力'
-    line_notify_token = line_token
-    line_notify_api = line_api
+    line_notify_api = 'https://notify-api.line.me/api/notify'
+    line_notify_token = 'line-notify-token入力'
     message = msg
     payload = {'message': message}
     headers = {'Authorization': 'Bearer ' + line_notify_token} 

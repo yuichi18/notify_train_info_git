@@ -12,13 +12,12 @@
 特定のyahoo路線の運行情報をスクレイピングし、正常運行以外の場合にLine notifyにて運行情報を通知する  
 ※server上で定期実行させることを推奨
 
-### LINE通知画像
+* LINE通知画像
+    * 遅延発生時
+    ![遅延発生時](./image/delay.png)
 
-*  遅 延発生時  
-![遅延発生時](./image/delay.png)
-      
-* 異常時  
-![異常時](./image/error.png)  
+    * 異常時
+    ![異常時](./image/error.png)  
 
 # 主な使用技術
   * スクレイピング：Beautiful Soup
