@@ -14,9 +14,11 @@
 
 * LINE通知画像
     * 遅延発生時
+
     ![遅延発生時](./image/delay.png)
 
     * 異常時
+    
     ![異常時](./image/error.png)  
 
 # 主な使用技術
