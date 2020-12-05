@@ -1,3 +1,4 @@
 .vscode/
-*ß	.venv
-venv/
+.venv/
+.git/
+memo.txt
