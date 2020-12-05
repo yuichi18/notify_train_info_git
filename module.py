@@ -1,10 +1,12 @@
 import requests
 import sys
+import settings
 
 ### LINE通知
 def line_bot(msg):
     line_notify_api = 'https://notify-api.line.me/api/notify'
-    line_notify_token = 'line-notify-token入力'
+    # line_notify_token = 'line-notify-token入力'
+    line_notify_token = settings.line_notify_token
     message = msg
     payload = {'message': message}
     headers = {'Authorization': 'Bearer ' + line_notify_token} 
