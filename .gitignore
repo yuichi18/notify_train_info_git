@@ -1,5 +1,6 @@
 .vscode/
 .venv/
 .git/
+.env
 venv/
 memo.txt
