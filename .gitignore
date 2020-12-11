@@ -2,5 +2,5 @@
 .venv/
 .git/
 .env
-venv/
+venv
 memo.txt
